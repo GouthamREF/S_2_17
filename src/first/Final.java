@@ -12,18 +12,18 @@
 
 	public class Final 
 	{
-		WebDriver dr;
+		//WebDriver dr;
 		@BeforeTest
 		
 		public void login()
 		{
 			
-			System.setProperty("webdriver.chrome.driver", "J:\\chrome\\chromedriver.exe");
+			//System.setProperty("webdriver.chrome.driver", "J:\\chrome\\chromedriver.exe");
 			 //=new FirefoxDriver();
 			
-			dr=new ChromeDriver();
+			//dr=new ChromeDriver();
 			System.out.println("Before Test");
-			dr.get("https://paytm.com/");
+			//dr.get("https://paytm.com/");
 			//dr.manage().window().maximize();
 		}
 	@Test
@@ -72,7 +72,7 @@
 		{
 			System.out.println("Govinda");
 			System.out.println("After test");
-			dr.quit();
+			//dr.quit();
 		}
 		
 	}
